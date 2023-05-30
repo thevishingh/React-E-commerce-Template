@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #ffffff;
+    /* font-family: 'Urbanist', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background {
+    background-color: #f6f9fc;
+    padding: 50px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+    max-width: 90%;
+    margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.d_flex {
+    display: flex;
+    justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.c_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f_flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+i{
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.RText {
+    text-align: right;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+    background-color: none;
+}
+
+.row {
+    width: 50%;
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f3f5f9;
+    margin-left: 20opx;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.boxShadow {
+    box-shadow: rgba(43 52 69 / 10%) 0 4px 16px ;
+}
+
+.btn-primary{
+    background-color: #000000;
+    padding: 13px 40px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.top{
+    margin-top: 80px;
+}
+
+.mtop{
+    margin-top: 40px
+    ;
+}
+
+.discount{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 50px;
+    color: #ffff;
+    margin: 10px;
+}
+/* ----------Product----------- */
+.product{
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgba(3 0 71 / 9%) 0 1px 3px;
+    margin: 10px;
 }
